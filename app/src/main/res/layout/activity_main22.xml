@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView19"
+        android:src="@drawable/btsnew"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/imageView20"
+        android:layout_alignStart="@+id/imageView20" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="     Instructions :"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView20"
+        android:src="@drawable/smho"
+        android:layout_below="@+id/imageView19"
+        android:layout_toLeftOf="@+id/textView13"
+        android:layout_toStartOf="@+id/textView13" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Click on This Button and Select the Bluetooth Device."
+        android:id="@+id/textView14"
+        android:layout_alignTop="@+id/imageView19"
+        android:layout_toRightOf="@+id/imageView20"
+        android:layout_toEndOf="@+id/imageView20"
+        android:textColor="#070606"
+        android:layout_above="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Click on this button and     Device connecting will show. Wait till device connected message popup."
+        android:id="@+id/textView15"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14"
+        android:layout_toRightOf="@+id/imageView20"
+        android:layout_toEndOf="@+id/imageView20"
+        android:layout_below="@+id/imageView19"
+        android:layout_alignBottom="@+id/imageView20"
+        android:textColor="#0b0101" />
+
+</RelativeLayout>
